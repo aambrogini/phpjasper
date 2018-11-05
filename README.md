@@ -4,7 +4,7 @@
 To get start in symfony, simple use the guide in the phpjasper example section but change paths and not use require autoload.
 Example (symfony 3.x controller):
 
-```
+```php
 <?php
 
 namespace AppBundle\Controller;
