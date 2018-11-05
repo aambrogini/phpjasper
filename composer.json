@@ -1,6 +1,6 @@
 {
   "name": "a.ambrogini/phpjasper",
-  "description": "A PHP report generator symfony fork",
+  "description": "A PHP report generator that work in symfony",
   "license": "MIT",
   "keywords": [
     "reports",
