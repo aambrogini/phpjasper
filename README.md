@@ -21,9 +21,9 @@ class DefaultController extends Controller {
      * @Route("/", name="default")
      */
     public function indexAction(Request $request) {
-        $input = '/src/SymfonyProject/vendor/geekcom/phpjasper/examples/hello_world.jrxml';   
+        $input = '/src/SymfonyProject/vendor/a.ambrogini/phpjasper/examples/hello_world.jrxml';   
 
-        $output = '/src/SymfonyProject/vendor/geekcom/phpjasper/examples';    
+        $output = '/src/SymfonyProject/vendor/a.ambrogini/phpjasper/examples';    
         $options = [ 
             'format' => ['pdf', 'rtf'] 
         ];
