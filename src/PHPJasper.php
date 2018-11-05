@@ -212,9 +212,9 @@ class PHPJasper
 
         $output = [];
         $returnVar = 0;
-
-        chdir($this->pathExecutable);
-        exec($this->command, $output, $returnVar);
+        
+        //Execute command without chdir
+        exec($this->pathExecutable."/".$this->command, $output, $returnVar);
         if ($returnVar !== 0) {
             throw new \PHPJasper\Exception\ErrorCommandExecutable();
         }
